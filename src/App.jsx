@@ -1,4 +1,5 @@
 import './App.css'
+import FetchOnRender from './fetching-components/fetch-on-render/FetchOnRender'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
       <ol>
         <h1>Different fetching approaches with React</h1>
         <li>
-          <h2>Fetch on Render</h2>
+          <FetchOnRender></FetchOnRender>
         </li>
 
         <li>
